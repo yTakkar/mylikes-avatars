@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run script:avatars.json && next build",
     "start": "next start",
     "lint": "next lint",
     "script:avatars.json": "node scripts/generateAvatarsList.js"
